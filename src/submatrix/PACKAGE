@@ -1,0 +1,6 @@
+{
+"description": "submatrices",
+"archive": "libdbcsr",
+"requires": ["../base", "../", "../ops", "../mpi",  "../extras"],
+"public" : ["dbcsr_domain_submatrix_methods.F","dbcsr_domain_submatrix_types.F"],
+}
